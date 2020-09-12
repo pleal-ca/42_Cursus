@@ -10,7 +10,7 @@ These are the projects developed over the course of my studies at 42 São Paulo,
 |:dizzy:|									||**= 1 week**	|**= 462 XP**	|						||
 |01		|[netwhat](./01-netwhat)			|N/A		|about 3 days	|462 XP			|100% :heavy_check_mark:	|level 1 - 23%	|
 |01		|[get_next_line](./01-get_next_line)|C			|about 1 week	||||
-|01		|[ft_printf](./01-ft_printf)		|C			|about 1 week	||115% :heavy_check_mark:	||
+|01		|[ft_printf](./01-ft_printf)		|C			|about 1 week	||||
 |:dizzy:|									||**= 2,5 weeks**|**= 2.226 XP**	|						||
 |02		|[ft_server](./02-ft_server)		|docker, .sh|about 1 week	|1.722 XP		|||
 |02		|Exam Rank 02						|C	|-				|0 XP			|			||

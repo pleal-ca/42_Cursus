@@ -6,7 +6,7 @@
 /*   By: megafone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/07 10:16:40 by megafone          #+#    #+#             */
-/*   Updated: 2020/09/07 10:16:44 by megafone         ###   ########.fr       */
+/*   Updated: 2020/09/12 20:41:21 by pleal-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ char	*ft_strchr(const char *s, int c)
 	return ((char *)&s[i]);
 }
 
-int	append_line(char **store, int fd, char **line)
+int		append_line(char **store, int fd, char **line)
 {
 	int		len;
 	char	*tmp;
@@ -44,12 +44,12 @@ int	append_line(char **store, int fd, char **line)
 	{
 		*line = ft_strdup(store[fd]);
 		ft_strdel(&store[fd]);
-		return(0);
+		return (0);
 	}
 	return (1);
 }
 
-int	read_output(char **store, int ret, int fd, char **line)
+int		read_output(char **store, int ret, int fd, char **line)
 {
 	if (ret < 0)
 		return (-1);
@@ -62,7 +62,7 @@ int	read_output(char **store, int ret, int fd, char **line)
 		return (append_line(store, fd, line));
 }
 
-int	get_next_line(int fd, char **line)
+int		get_next_line(int fd, char **line)
 {
 	static char	*store[1024];
 	char		*buff;

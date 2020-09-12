@@ -1,7 +1,19 @@
 # 42_Cursus
 These are the projects developed over the course of my studies at 42 São Paulo, a coding school based on peer-to-peer pedagogy and project-based learning. Emphasis on adaptability, teamwork and leadership skills.
 
+## How does the school actually work?
+The school is only responsible for maintaining infrastructure and the curriculum, kinda like a Dungeon Master in an RPG game. The students, dubbed Cadets, are given a set of challenges to finish. Every challenge, when completed, grants an amount of XP points, and you progress along the curriculum by attaining levels and thus unlocking harder challenges.
 
+The cadets can only rely on themselves and the developer gods - that is, Google, YouTube, GitHub, StackOverflow and others in the Internet pantheon - to get their work done. 
+
+# What exactly do you learn?
+The curriculum, up to the sixth level, is comprised of the building blocks of modern software development: algorithms and data structures, networking, cloud architecture and object-oriented programming. Most of the work is in C and C++, a lot of the projects (especially in the beginning) are oriented towards teaching low-level computing concepts, and everything is done through the Unix terminal and Vim, which makes the cadets very adept at shell scripting as well.
+
+After the sixth level, the curriculum branches out and the cadets are given freedom to proceed in any direction they wish: web development, game design, data science, security, operational systems, different languages and frameworks, etc. They even have the liberty to propose new projects to add new projects into the curriculum if they feel like it doesn't have something they want to learn yet.
+
+The most important feature of the school, though, is how the entire process drives the cadets towards developing a very strong soft skill set: a cadet naturally becomes better at teamworking and teaching both themselves and their fellows as they proceed through the course.
+
+# Current progress
 
 |CIRCLE	|PROJECT							|LANGUAGE	|DURATION		|EXPERIENCE		|STATUS			|ATTAINED LEVEL	|
 |:-:	|:--								|:-:	|--:			|--:			|--:				|:--			|
@@ -34,3 +46,5 @@ These are the projects developed over the course of my studies at 42 São Paulo,
 |06		|Exam Rank 06						|?	|-				|0 XP			|			||
 |06		|ft_transcendence					|?	|about 5 weeks	|24.360 XP		|					||
 |:dizzy:|									||**= 5 weeks**	|**= 24.360 XP**|						||
+
+Credits to https://github.com/appinha for the templating of this repo :D

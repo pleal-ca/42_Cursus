@@ -7,7 +7,7 @@ The school is only responsible for maintaining infrastructure and the curriculum
 The cadets can only rely on themselves and the developer gods - that is, Google, YouTube, GitHub, StackOverflow and others in the Internet pantheon - to get their work done. 
 
 ## What exactly do you learn?
-The curriculum, up to the sixth level, is comprised of the building blocks of modern software development: algorithms and data structures, networking, cloud architecture and object-oriented programming. Most of the work is in C and C++, a lot of the projects (especially in the beginning) are oriented towards teaching low-level computing concepts, and everything is done through the Unix terminal and Vim, which makes the cadets very adept at shell scripting as well.
+The curriculum, up to the sixth level, is comprised of the building blocks of modern software development: algorithms and data structures, networking, cloud architecture and object-oriented programming. Most of the work is in C and C++, a lot of the projects (especially in the beginning) are oriented towards teaching low-level computing concepts such as pointers and dynamic memory allocation, and everything is done through the Unix terminal and Vim, which makes the cadets very adept at shell scripting as well.
 
 After the sixth level, the curriculum branches out and the cadets are given freedom to proceed in any direction they wish: web development, game design, data science, security, operational systems, different languages and frameworks, etc. They even have the liberty to propose new projects to add new projects into the curriculum if they feel like it doesn't have something they want to learn yet.
 

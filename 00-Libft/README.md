@@ -76,6 +76,7 @@ This folder contains solely the files required for submission.
 * [`ft_strjoin`](./ft_strjoin.c)			- concatenate two strings into a new string (with malloc)
 * [`ft_split`](./ft_split.c)				- split string, with specified character as delimiter, into an array of strings
 * [`ft_strmapi`](./ft_strmapi.c)			- create new string from modifying string with specified function
+* [`ft_strdel`](./ft_strdel.c)			- delete a string and free the associated memory
 
 ### Linked list functions
 * [`ft_lstnew`](./ft_lstnew.c)				- create new list

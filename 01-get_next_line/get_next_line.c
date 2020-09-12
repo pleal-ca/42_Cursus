@@ -44,7 +44,7 @@ int	append_line(char **store, int fd, char **line)
 	{
 		*line = ft_strdup(store[fd]);
 		ft_strdel(&store[fd]);
-		return (0);
+		return(0);
 	}
 	return (1);
 }
@@ -53,8 +53,11 @@ int	read_output(char **store, int ret, int fd, char **line)
 {
 	if (ret < 0)
 		return (-1);
-	else if (ret == 0 && (store[fd] == NULL || store[fd][0] == '\0'))
+	else if (ret == 0 && (store[fd] == NULL))
+	{
+		*line = ft_strdup("");
 		return (0);
+	}
 	else
 		return (append_line(store, fd, line));
 }
@@ -66,9 +69,9 @@ int	get_next_line(int fd, char **line)
 	char		*tmp;
 	int			ret;
 
-	if (fd < 0 || BUFFER_SIZE < 1)
+	if (fd < 0 || BUFFER_SIZE < 1 || line == NULL)
 		return (-1);
-	buff = (char *)malloc(sizeof(char) * (BUFFER_SIZE + 1));
+	buff = (char *)malloc(sizeof(char) * BUFFER_SIZE + 1);
 	while ((ret = read(fd, buff, BUFFER_SIZE)) > 0)
 	{
 		buff[ret] = '\0';

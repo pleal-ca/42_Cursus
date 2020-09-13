@@ -6,12 +6,12 @@
 /*   By: megafone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/12 23:44:56 by megafone          #+#    #+#             */
-/*   Updated: 2020/09/12 23:44:58 by megafone         ###   ########.fr       */
+/*   Updated: 2020/09/12 23:52:30 by pleal-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef GET_NEXT_LINE_H
-# define GET_NEXT_LINE_H
+#ifndef GET_NEXT_LINE_BONUS_H
+# define GET_NEXT_LINE_BONUS_H
 # include <unistd.h>
 # include <stdlib.h>
 

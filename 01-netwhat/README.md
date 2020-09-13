@@ -1,25 +1,20 @@
 # netwhat
 
->"This project is an introduction to network problematics"
-
 For further information, refer to the [project's PDF](../_PDFs/01-netwhat-en.pdf).
 
-## Contents
+These are the straight-up answers to the theory questions in the project. It is meant as an introduction to networking concepts such as information transfer protocols, IP logical divisions, etc.
 
-* **[apuchill-ip_calc](./apuchill-ip_calc) folder:** program to calculate information about IP addresses and such.
-* **[questions](./questions) folder:** questions answered on the netwhat test (printscreens).
-* **file in the root:** file submitted to the project.
+## Contents
 
 ## Study Summary
 
 ### 1. IP (Internet Protocol)
 
-* IPv4 address _size_: **32 bits**.
-* IPv6 address _size_: **128 bits**.
-* **Ping** uses ICMP protocol.
+* Sizes: IPv4 has 32 bits, IPv6 128 bits. TCP/IP is the basic Internet protocol, but there are many others: Ping (an utility for network connection testing), for example, uses ICMP.
 
-#### a) IP classes
+#### a) IP subdivisions
 
+* IPs are formed by four octets, and can be divided into classes and subnets.
 * Ranges from **A to E**.
 * **"A"** is the IP address class that has _the most host addresses available_ by default.
 * **"C"** is the _default IP address class_ available.

@@ -11,7 +11,7 @@ The curriculum, up to the 6th level, is comprised of the building blocks of mode
 
 Starting at the 7th level, the curriculum branches out and the cadets are given freedom to progress in any direction they wish: web development, game design, data science, information security, operational system design, different languages and frameworks, etc. They even have the liberty to propose new projects to add into the curriculum if they feel like it doesn't have something they want to learn yet.
 
-The most important feature of the school, though, is how the entire process drives the cadets towards developing a very strong soft skill set: a cadet naturally becomes better at teamworking and teaching both themselves and their fellows as they proceed through the course.
+The most important feature of the school, though, and what makes it truly unique, is how the entire process drives you towards developing a very strong soft skill set: a cadet naturally becomes better at teamworking and teaching both themselves and their fellows as they proceed through the course.
 
 ## Current progress
 

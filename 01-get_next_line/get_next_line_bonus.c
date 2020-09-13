@@ -69,7 +69,7 @@ int		get_next_line(int fd, char **line)
 	char		*tmp;
 	int			ret;
 
-	if (fd < 0 || BUFFER_SIZE < 1 || line == NULL)
+	if (fd < 0 || BUFFER_SIZE < 1)
 		return (-1);
 	buff = (char *)malloc(sizeof(char) * BUFFER_SIZE + 1);
 	while ((ret = read(fd, buff, BUFFER_SIZE)) > 0)
@@ -86,5 +86,6 @@ int		get_next_line(int fd, char **line)
 		if (ft_strchr(buff, '\n') != NULL)
 			break ;
 	}
+	ft_strdel(&buff);
 	return (read_output(store, ret, fd, line));
 }

@@ -6,7 +6,7 @@
 /*   By: megafone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/07 10:16:40 by megafone          #+#    #+#             */
-/*   Updated: 2020/09/12 20:41:21 by pleal-ca         ###   ########.fr       */
+/*   Updated: 2020/09/12 23:13:55 by megafone         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,12 +65,13 @@ int		read_output(char **store, int ret, int fd, char **line)
 int		get_next_line(int fd, char **line)
 {
 	static char	*store[1024];
-	char		buff[BUFFER_SIZE + 1];
+	char		*buff;
 	char		*tmp;
 	int			ret;
 
-	if (fd < 0 || BUFFER_SIZE < 1 || line == NULL)
+	if (fd < 0 || BUFFER_SIZE < 1)
 		return (-1);
+	buff = (char *)malloc(sizeof(char) * BUFFER_SIZE + 1);
 	while ((ret = read(fd, buff, BUFFER_SIZE)) > 0)
 	{
 		buff[ret] = '\0';
@@ -85,5 +86,6 @@ int		get_next_line(int fd, char **line)
 		if (ft_strchr(buff, '\n') != NULL)
 			break ;
 	}
+	ft_strdel(&buff);
 	return (read_output(store, ret, fd, line));
 }

@@ -51,7 +51,7 @@ int		append_line(char **store, int fd, char **line)
 
 int		read_output(char **store, int ret, int fd, char **line)
 {
-	if (ret < 0)
+	if (ret < 0 || line == NULL)
 		return (-1);
 	else if (ret == 0 && (store[fd] == NULL))
 	{

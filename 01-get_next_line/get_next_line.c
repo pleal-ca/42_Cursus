@@ -65,13 +65,12 @@ int		read_output(char **store, int ret, int fd, char **line)
 int		get_next_line(int fd, char **line)
 {
 	static char	*store[1024];
-	char		*buff;
+	char		buff[BUFFER_SIZE + 1];
 	char		*tmp;
 	int			ret;
 
 	if (fd < 0 || BUFFER_SIZE < 1 || line == NULL)
 		return (-1);
-	buff = (char *)malloc(sizeof(char) * BUFFER_SIZE + 1);
 	while ((ret = read(fd, buff, BUFFER_SIZE)) > 0)
 	{
 		buff[ret] = '\0';

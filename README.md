@@ -18,10 +18,10 @@ The most important feature of the school, though, is how the entire process driv
 |CIRCLE	|PROJECT							|LANGUAGE	|EXPERIENCE		|STATUS			|ATTAINED LEVEL	|
 |:-:	|:--								|:-:	|--:			|--:				|:--			|
 |		|								||				|		||
-|00		|[Libft](./00-Libft)				|C		|462 XP			|115% :heavy_check_mark:	|level 1 - 3%	|
+|00		|[Libft](./00-Libft)				|C		|462 XP			|100% :heavy_check_mark:	|level 1 - 0%	|
 |:dizzy:|									||**= 462 XP**	|						||
-|01		|[netwhat](./01-netwhat)			|N/A		|462 XP			|100% :heavy_check_mark:	|level 1 - 23%	|
-|01		|[get_next_line](./01-get_next_line)|C			||||
+|01		|[netwhat](./01-netwhat)			|N/A		|462 XP			|100% :heavy_check_mark:	|level 1 - 20%	|
+|01		|[get_next_line](./01-get_next_line)|C			|882 XP			|100% :heavy_check_mark:	|level 1 - 63%	|
 |01		|[ft_printf](./01-ft_printf)		|C			|||
 |:dizzy:|									||**= 2.226 XP**	|						||
 |02		|[ft_server](./02-ft_server)		|docker, .sh|1.722 XP		||
